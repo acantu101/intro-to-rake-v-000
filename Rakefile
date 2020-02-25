@@ -28,7 +28,7 @@ namespace :db do
 end
 
 desc 'seeds the database with dummy data from a seed file'
-task :seed => :enviroment do
+task :seed do
 Student.create(name: "Melissa", grade: "10th")
 Student.create(name: "April", grade: "10th")
 Student.create(name: "Luke", grade: "9th")
